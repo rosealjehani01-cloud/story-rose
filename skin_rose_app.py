@@ -6,7 +6,7 @@ import json
 
 # ===== FILE PATHS - Edit these paths to match your file locations =====
 MODEL_PATH = 'model_torchscript (1).pt'
-METADATA_PATH = r"C:\Users\rosek\Desktop\deployyyyy\metadata.json"
+METADATA_PATH = 'metadata.json'
 # =====================================================================
 
 # Page configuration
@@ -182,3 +182,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
