@@ -5,7 +5,7 @@ from PIL import Image
 import json
 
 # ===== FILE PATHS - Edit these paths to match your file locations =====
-MODEL_PATH = r"C:\Users\rosek\Desktop\deployyyyy\model_torchscript (1).pt"
+MODEL_PATH = 'model_torchscript (1).pt'
 METADATA_PATH = r"C:\Users\rosek\Desktop\deployyyyy\metadata.json"
 # =====================================================================
 
@@ -180,4 +180,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
